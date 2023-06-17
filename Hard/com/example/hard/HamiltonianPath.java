@@ -1,4 +1,4 @@
-package com.example.easy.hard;
+package com.example.hard;
 
 import java.util.*;
 import java.util.stream.Collectors;
