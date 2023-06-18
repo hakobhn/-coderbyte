@@ -2,7 +2,7 @@ package com.example.hard;
 
 import java.util.*;
 
-class LineOdering {
+public class LineOrdering {
     static List<List<String>> permutations = new ArrayList<>();
 
     public static int LineOrdering(String[] strArr) {

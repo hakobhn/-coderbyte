@@ -2,6 +2,13 @@ package com.example.medium;
 
 import java.util.Scanner;
 
+/**
+ *
+ * // Have the function SwapII(str) take the str parameter and swap the case of each character. Then, if a letter
+ * // is between two numbers (without separation), switch the places of the two numbers. For example: if str is
+ * // "6Hello4 -8World, 7 yes3" the output should be 4hELLO6 -8wORLD, 7 YES3.
+ *
+ */
 class SwapII {
 
     static String alphabet = "abcdefghijklmnopqrstuvwxyz";
@@ -48,9 +55,15 @@ class SwapII {
         return newString.toString();
     }
 
+    /**
+     *
+     * 6Hello4 -8World, 7 yes3
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         // keep this function call here
         Scanner s = new Scanner(System.in);
-        System.out.print(SwapII(s.nextLine()));
+        System.out.println(SwapII(s.nextLine()));
     }
 }
